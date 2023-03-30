@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jungle page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagens/icons8-jungle-16.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <p class="logo">Logo</p>
+        <nav class="navegacao">
+            <a href="#"> Home</a>
+            <a href="#">Sobre</a>
+            <a href="#">Serviços</a>
+            <a href="#">Contato</a>
+            <button class="botao_login">Login</button>
+        </nav>
+
+    </header>
+    <main>
+        <div class="wrapper">
+            <div class="fechar"><ion-icon name="close-outline"></ion-icon></div>
+            <div class="form-box login ">
+                <h2>Login</h2>
+                <form action="#">
+                    <div class="input-box">
+                        <span class="icon">
+                            <ion-icon name="mail"></ion-icon>
+                        </span>
+                        <input type="email" name="email" id="emailid" required>
+                        <label for="emailid">Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon">
+                            <ion-icon name="lock-closed"></ion-icon>
+                        </span>
+                        <input type="password" name="password" id="passwordid" required>
+                        <label for="passwordid"> Senha</label>
+                    </div>
+                    <div class="remember-forget">
+
+                        <label for="senhaforgetid">
+                            <input type="checkbox" name="senhaforget" id="senhaforgetid"> Lembre-se de mim!
+                        </label>
+                        <a href="#">Esqueceu sua senha?</a>
+
+
+                    </div>
+                    <button type="submit" class="btn">Login</button>
+                    <div class="login-registrer">
+                        <p>Ainda não possui uma conta? <a href="#" class="register-link">Registrar</a>
+                        </p>
+                    </div>
+                </form>
+            </div>
+            <div class="form-box cadastro">
+                <h2>Cadastro</h2>
+                <form action="#">
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="person"></ion-icon></span>
+                        <input type="text" name="user" id="userid" required>
+                        <label for="emailid">Usuário</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                        <input type="email" name="email" id="emailid" required>
+                        <label for="emailid">Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                        <input type="password" name="password" id="passwordid" required>
+                        <label for="passwordid"> Senha</label>
+                    </div>
+                    <div class="remember-forget">
+
+                        <label for="senhaforgetid">
+                            <p>
+                                <input type="checkbox" name="accept" id="acceptid">
+                                Eu li e concordo com os termos de uso
+                            </p>
+                        </label>
+
+
+                    </div>
+                    <button type="submit" class="btn">Cadastrar</button>
+                    <div class="login-registrer">
+                        <p>Já possui uma conta?
+                            <a href="#" class="login-link">
+                                Login
+                            </a>
+                        </p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    </div>
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
